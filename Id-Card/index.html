@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Final Project</title>
+</head>
+<body>
+    <h1>Let's Create an ID card!</h1>
+
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" value="Remigio">
+    <br>
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" value="Garcia">
+    <br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" value="27">
+    <br>
+
+    <label for="phoneNumber">Phone Number:</label>
+    <input type="tel" id="phoneNumber" value="305-725-7047">
+    <br>
+
+    <label for="address">Address:</label>
+    <input type="text" id="address" value="16207 N Inspiration Rd, Edinburg, TX 78541">
+    <br>
+
+    <button onclick="idCard()">Create ID Card</button>
+
+    <div id="idCard">
+        <img src="http://www.iconninja.com/files/373/611/612/person-user-profile-male-man-avatar-account-icon.svg">
+        <p id="postFullName"></p>
+        <p id="postAge"></p>
+        <p id="postPhoneNumber"></p>
+        <p id="postAddress"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
